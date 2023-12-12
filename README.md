@@ -54,3 +54,14 @@ Container(
   ),
 )
 
+Container(
+  width: double.infinity, // ya da belirli bir genişlik
+  height: double.infinity, // ya da belirli bir yükseklik
+  decoration: BoxDecoration(
+    image: DecorationImage(
+      image: AssetImage('assets/images/resminiz.jpg'),
+      fit: BoxFit.cover, // resmin konteyner içinde nasıl yerleşeceğini ayarlar
+    ),
+    // Diğer dekorasyon özellikleri
+  ),
+
